@@ -22,8 +22,8 @@ onMounted(() => {
 			<Icon icon="ic-round-arrow-forward" class="ml-2 group-focus:ml-3 group-hover:ml-3 transition-[margin]"></Icon>
 		</a>
 		<div ref="demo"
-			class="bg-gradient-to-br from-teal9 to-green9 relative grid place-items-center p-4 md:p-10 min-h-[256px] lg:h-[400px] overflow-x-auto"
-			:class="[{ 'px-5': needsPadding}, title ? 'rounded-xl' : 'rounded-t-lg']"
+			class="bg-gradient-to-br from-teal9 to-green9 relative grid place-items-center p-4 md:p-10 min-h-[256px] overflow-x-auto"
+			:class="[{ 'px-5': needsPadding}, title ? 'rounded-xl lg:h-[400px]' : 'rounded-t-lg']"
 		>
 			<slot />
 		</div>
