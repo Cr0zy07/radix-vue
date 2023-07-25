@@ -3,10 +3,12 @@ import DemoContainer from './DemoContainer.vue'
 </script>
 
 <template>
+  <div class="relative text-[15px] text-black">
     <DemoContainer>
-        <slot />
+      <slot />
     </DemoContainer>
     <slot name="codeSlot" />
+  </div>
 </template>
 
 <style scoped>
