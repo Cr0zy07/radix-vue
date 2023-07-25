@@ -103,7 +103,7 @@ import DemoContainer from "./DemoContainer.vue";
     <DemoContainer title="toggle group">
       <ToggleGroupDemo />
     </DemoContainer>
-    <DemoContainer title="toolbar">
+    <DemoContainer overflow title="toolbar">
       <ToolbarDemo />
     </DemoContainer>
     <DemoContainer title="tooltip">

@@ -1,10 +1,14 @@
 <script setup lang="ts">
 import DemoContainer from './DemoContainer.vue'
+
+defineProps<{
+    overflow?: boolean;
+}>();
 </script>
 
 <template>
   <div class="relative text-[15px] text-black">
-    <DemoContainer>
+    <DemoContainer overflow>
       <slot />
     </DemoContainer>
     <slot name="codeSlot" />
